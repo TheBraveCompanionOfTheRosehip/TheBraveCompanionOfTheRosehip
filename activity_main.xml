@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101F29"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/authorization"
+        android:textColor="@color/white"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/autorization_activity_login"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_login"
+        android:textColor="@color/white"
+        android:textColorHint="#996A5F5F" />
+
+    <EditText
+        android:id="@+id/autorization_activity_password"
+        android:layout_width="130sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_password"
+        android:textColor="@color/white"
+        android:textColorHint="#996A5F5F" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="15sp" />
+
+    <Button
+        android:id="@+id/autorization_activity_button_to_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFEB3B"
+        android:onClick="onClick"
+        android:text="@string/enter"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/autorization_activity_error"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:textColor="#DC1F12" />
+
+    <TextView
+        android:id="@+id/autorization_activity_button_to_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/sign_up" />
+
+</LinearLayout>
